@@ -16,7 +16,7 @@
     "release:cli": "bun run --cwd apps/cli release",
     "setup:extractor": "bun run --cwd packages/extractor setup",
     "prepare": "lefthook install",
-    "test:growth": "node --test tests/growth-attribution.test.mjs tests/analytics-consent.test.mjs",
+    "test:growth": "node --test tests/growth-attribution.test.mjs tests/analytics-consent.test.mjs tests/site-build-checks.test.mjs",
     "build:site:fixture": "node scripts/build-site-fixture.mjs"
   },
   "devDependencies": {

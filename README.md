@@ -127,3 +127,7 @@ If you own a document and want it removed, email [help@docxcorp.us](mailto:help@
 ## License
 
 MIT
+
+### Analytics privacy verification
+
+For changes to the optional analytics controller or URL navigation, follow [the maintained consent runbook](docs/analytics-consent.md#required-privacy-follow-up-and-release-checks) and run the existing `bun run test:growth` checks. Mirror controller fixes between ooxml.dev and docxcorp.us, use matching site/project fixtures and retain exact source/build evidence before normal maintainer release. These checks use synthetic data and do not send analytics to production.
